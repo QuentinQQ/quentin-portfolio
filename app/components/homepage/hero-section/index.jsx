@@ -90,69 +90,69 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
+                <span className="text-gray-400">`</span>
                 <span className="text-amber-300">Zhentao Qian</span>
-                <span className="text-gray-400">{`',`}</span>
+                <span className="text-gray-400">`,</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className="text-white">skills:</span>
                 <span className="text-gray-400">{"{"}</span>
                 <br />
                 <span className="ml-8 text-white">Languages:</span>
-                <span className="text-gray-400">["</span>
+                <span className="text-gray-400">[&quot;</span>
                 <span className="text-amber-300">C#</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">JavaScript</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">TypeScript</span>
-                <span className="text-gray-400">"],</span>
+                <span className="text-gray-400">&quot;],</span>
                 <br />
                 <span className="ml-8 text-white">Frontend:</span>
-                <span className="text-gray-400">["</span>
+                <span className="text-gray-400">[&quot;</span>
                 <span className="text-amber-300">React</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Flutter</span>
-                <span className="text-gray-400">"],</span>
+                <span className="text-gray-400">&quot;],</span>
                 <br />
                 <span className="ml-8 text-white">Backend:</span>
-                <span className="text-gray-400">["</span>
+                <span className="text-gray-400">[&quot;</span>
                 <span className="text-amber-300">.NET</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Node.js</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Express</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Restful</span>
-                <span className="text-gray-400">"],</span>
+                <span className="text-gray-400">&quot;],</span>
                 <br />
                 <span className="ml-8 text-white">Databases:</span>
-                <span className="text-gray-400">["</span>
+                <span className="text-gray-400">[&quot;</span>
                 <span className="text-amber-300">PostgreSQL</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">SQL Server</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Redis</span>
-                <span className="text-gray-400">"],</span>
+                <span className="text-gray-400">&quot;],</span>
                 <br />
                 <span className="ml-8 text-white">Cloud:</span>
-                <span className="text-gray-400">["</span>
+                <span className="text-gray-400">[&quot;</span>
                 <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Google Cloud</span>
-                <span className="text-gray-400">"],</span>
+                <span className="text-gray-400">&quot;],</span>
                 <br />
                 <span className="ml-8 text-white">DevOps:</span>
-                <span className="text-gray-400">["</span>
+                <span className="text-gray-400">[&quot;</span>
                 <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">K8s</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Jenkins</span>
-                <span className="text-gray-400">", "</span>
+                <span className="text-gray-400">&quot;, &quot;</span>
                 <span className="text-amber-300">Git</span>
-                <span className="text-gray-400">"]</span>
+                <span className="text-gray-400">&quot;]</span>
                 <br />
                 <span className="ml-4 text-gray-400">{"}"}</span>
               </div>

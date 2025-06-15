@@ -1,6 +1,8 @@
 // @flow strict
 
 import * as React from 'react';
+import Link from 'next/link';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -61,6 +63,22 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.demo && project.demo !== '' && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">demo:</span>
+              <span className="text-gray-400">{` '`}</span>
+              <Link 
+                href={project.demo.startsWith('http') ? project.demo : `https://${project.demo}`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-green-400 hover:underline inline-flex items-center"
+              >
+                {project.demo}
+                <FaExternalLinkAlt className="ml-1 h-3 w-3" />
+              </Link>
+              <span className="text-gray-400">{`',`}</span>
+            </div>
+          )}
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
